@@ -1,0 +1,42 @@
+body > .container {
+	padding: 20px;
+}
+
+.btn{
+	background: #ccc;
+    display: inline-block;
+    padding: 10px 15px;
+    min-width: 75px;
+    text-align: center;
+}
+.btn > p{
+	margin: 0px;
+}
+.btn a{
+	color: #fff;
+}
+.btn a:hover{
+	color: #ccc;
+}
+.btn.edit{
+	background: #00BB3F;
+}
+.btn.remove{
+	background: #FF8900;
+}
+.articlesList{
+	margin-top: 15px;
+}
+.article{
+	padding: 10px;
+    background: #0B61A4;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.article a{
+	color: #FF5640;
+}
+
+.article a:hover{
+	color: #FF1E00;
+}
